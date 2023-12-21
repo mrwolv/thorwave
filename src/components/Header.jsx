@@ -14,8 +14,8 @@ const Header = () => {
       </div>
 
       <div
-        className='flex items-center justify-between gap-12 bg-sky-100 px-9 py-1.5 rounded-md
-       hover:bg-sky-200 hover:cursor-pointer active:ring-2 active: ring-sky-300 '
+        className='flex items-center justify-between gap-12 bg-[#e6f3ff] hover:bg-[#d1e4f5] px-8 py-1.5 rounded-md
+       hover:cursor-pointer  active:ring-4 active: ring-[#aabbee] '
         onClick={() => setActive(!actve)}
       >
         <span>name</span>
